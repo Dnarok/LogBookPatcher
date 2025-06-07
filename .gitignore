@@ -19,10 +19,14 @@
 [Rr]eleases/
 x64/
 x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -172,6 +176,8 @@ publish/
 *.pubxml
 *.publishproj
 
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
@@ -179,6 +185,8 @@ PublishScripts/
 
 # NuGet Packages
 *.nupkg
+# NuGet Symbol Packages
+*.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -319,6 +327,7 @@ OpenCover/
 
 # Azure Stream Analytics local run output 
 ASALocalRun/
+CodeCoverage/
 
 # MSBuild Binary and Structured Log
 *.binlog
@@ -328,5 +337,12 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
 Thunderstore/
