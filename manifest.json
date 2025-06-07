@@ -1,0 +1,10 @@
+﻿{
+	"name": "LogBookPatcher",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/Dnarok/LogBookPatcher",
+	"description": "Fixes some outstanding issues in the LogBook.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2119",
+		"RiskofThunder-HookGenPatcher-1.2.8"
+	]
+}
